@@ -1,6 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import * as Yup from "yup";
+import { useFormik } from "formik";
+
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
@@ -13,11 +16,31 @@ import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 
-import useFetch from "../../../hooks/useFetch";
+import useFetch from "../../../hooks/use-fetch";
+import useFilterContext from "../../../hooks/use-filter-context";
 
 
-export default function Searchbar({ formik }) {
+const validationSchema = Yup.object().shape({
+  departure: Yup.object().required("Departure is required"),
+  arrival: Yup.object().required("Arrival is required"),
+  departureDate: Yup.date().required("Departure date is required"),
+  returnDate: Yup.date(),
+  oneWayFlight: Yup.boolean(),
+})
+
+
+export default function Searchbar() {
   const { data: airports, loading } = useFetch("/airports");
+
+  const { filters, setFilters } = useFilterContext()
+
+  const formik = useFormik({
+    initialValues: filters.search,
+    validationSchema,
+    onSubmit: (values) => {
+      setFilters(prev => { return { ...prev, search: values } });
+    },
+  })
 
   return (
 
@@ -60,11 +83,13 @@ export default function Searchbar({ formik }) {
       />
       <LocalizationProvider dateAdapter={AdapterDayjs}>
         <DatePicker
+          format="YYYY-MM-DD"
           label="Departure date"
           value={formik.values.departureDate}
           onChange={(value) => formik.setFieldValue("departureDate", value)}
         />
         <DatePicker
+          format="YYYY-MM-DD"
           label="Date of return"
           value={formik.values.returnDate}
           onChange={(value) => formik.setFieldValue("returnDate", value)}
@@ -98,5 +123,5 @@ export default function Searchbar({ formik }) {
 }
 
 Searchbar.propTypes = {
-  formik: PropTypes.object.isRequired,
+
 };
