@@ -27,10 +27,10 @@ For running the application, you need to start the Mock JSON server. You can do 
 ```bash
 npx json-server src/database/db.json
 ```
-
+Open a diffrent terminal and navigate to the project folder.
 Finally, you can start the application by running the following command:
 
 ```bash
-npm start
+npm run dev
 ```
 
