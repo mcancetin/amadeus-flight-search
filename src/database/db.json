@@ -1,0 +1,397 @@
+{
+  "airports": [
+    {
+      "code": "IST",
+      "name": "Istanbul Airport",
+      "city": "Istanbul",
+      "country": "Turkey"
+    },
+    {
+      "code": "ANK",
+      "name": "Esenboğa Airport",
+      "city": "Ankara",
+      "country": "Turkey"
+    },
+    {
+      "code": "ESB",
+      "name": "Etimesgut Air Base",
+      "city": "Ankara",
+      "country": "Turkey"
+    },
+    {
+      "code": "ADB",
+      "name": "Adnan Menderes Airport",
+      "city": "Izmir",
+      "country": "Turkey"
+    },
+    {
+      "code": "DLM",
+      "name": "Dalaman Airport",
+      "city": "Mugla",
+      "country": "Turkey"
+    },
+    {
+      "code": "AYT",
+      "name": "Antalya Airport",
+      "city": "Antalya",
+      "country": "Turkey"
+    },
+    {
+      "code": "SAW",
+      "name": "Sabiha Gokcen Airport",
+      "city": "Istanbul",
+      "country": "Turkey"
+    },
+    {
+      "code": "ADA",
+      "name": "Adana Sakirpasa Airport",
+      "city": "Adana",
+      "country": "Turkey"
+    },
+    {
+      "code": "BJV",
+      "name": "Milas-Bodrum Airport",
+      "city": "Mugla",
+      "country": "Turkey"
+    },
+    {
+      "code": "ESH",
+      "name": "Eskisehir Airport",
+      "city": "Eskisehir",
+      "country": "Turkey"
+    },
+    {
+      "code": "TZX",
+      "name": "Trabzon Airport",
+      "city": "Trabzon",
+      "country": "Turkey"
+    }
+  ],
+ "flights": [
+    {
+      "id": 1,
+      "oneWayFlight": "false",
+      "departure": "IST",
+      "arrival": "ANK",
+      "departureDate": "2024-02-04",
+      "departureTime": "08:00",
+      "dateOfReturn": "2024-02-05",
+      "returnTime": "10:00",
+      "price": 100,
+      "currency": "TRY",
+      "flightTime": 60
+    },
+    {
+      "id": 2,
+      "oneWayFlight": "false",
+      "departure": "ADB",
+      "arrival": "AYT",
+      "departureDate": "2024-02-15",
+      "departureTime": "12:30",
+      "dateOfReturn": "2024-02-20",
+      "returnTime": "14:30",
+      "price": 250,
+      "currency": "TRY",
+      "flightTime": 120
+    },
+    {
+      "id": 3,
+      "oneWayFlight": "true",
+      "departure": "SAW",
+      "arrival": "DLM",
+      "departureDate": "2024-03-10",
+      "departureTime": "15:45",
+      "dateOfReturn": null,
+      "price": 80,
+      "currency": "TRY",
+      "flightTime": 45
+    },
+    {
+      "id": 4,
+      "oneWayFlight": "false",
+      "departure": "ESH",
+      "arrival": "TZX",
+      "departureDate": "2024-04-05",
+      "departureTime": "09:30",
+      "dateOfReturn": "2024-04-10",
+      "returnTime": "11:00",
+      "price": 180,
+      "currency": "TRY",
+      "flightTime": 90
+    },
+    {
+      "id": 5,
+      "oneWayFlight": "true",
+      "departure": "ADA",
+      "arrival": "BJV",
+      "departureDate": "2024-05-20",
+      "departureTime": "14:00",
+      "dateOfReturn": null,
+      "price": 120,
+      "currency": "TRY",
+      "flightTime": 60
+    },
+    {
+      "id": 6,
+      "oneWayFlight": "false",
+      "departure": "ANK",
+      "arrival": "AYT",
+      "departureDate": "2024-06-12",
+      "departureTime": "13:15",
+      "dateOfReturn": "2024-06-20",
+      "returnTime": "15:30",
+      "price": 280,
+      "currency": "TRY",
+      "flightTime": 150
+    },
+    {
+      "id": 7,
+      "oneWayFlight": "true",
+      "departure": "DLM",
+      "arrival": "AYT",
+      "departureDate": "2024-07-05",
+      "departureTime": "11:45",
+      "dateOfReturn": null,
+      "price": 90,
+      "currency": "TRY",
+      "flightTime": 60
+    },
+    {
+      "id": 8,
+      "oneWayFlight": "false",
+      "departure": "IST",
+      "arrival": "ESB",
+      "departureDate": "2024-08-18",
+      "departureTime": "14:15",
+      "dateOfReturn": "2024-08-25",
+      "returnTime": "15:30",
+      "price": 200,
+      "currency": "TRY",
+      "flightTime": 75
+    },
+    {
+      "id": 9,
+      "oneWayFlight": "true",
+      "departure": "SAW",
+      "arrival": "BJV",
+      "departureDate": "2024-09-10",
+      "departureTime": "10:00",
+      "dateOfReturn": null,
+      "price": 110,
+      "currency": "TRY",
+      "flightTime": 60
+    },
+    {
+      "id": 10,
+      "oneWayFlight": "false",
+      "departure": "ADB",
+      "arrival": "ESB",
+      "departureDate": "2024-10-15",
+      "departureTime": "12:00",
+      "dateOfReturn": "2024-10-22",
+      "returnTime": "14:00",
+      "price": 230,
+      "currency": "TRY",
+      "flightTime": 100
+    },
+    {
+      "id": 11,
+      "oneWayFlight": "true",
+      "departure": "ESH",
+      "arrival": "TZX",
+      "departureDate": "2024-11-05",
+      "departureTime": "09:30",
+      "dateOfReturn": null,
+      "price": 150,
+      "currency": "TRY",
+      "flightTime": 75
+    },
+    {
+      "id": 12,
+      "oneWayFlight": "false",
+      "departure": "IST",
+      "arrival": "ADB",
+      "departureDate": "2024-12-20",
+      "departureTime": "14:30",
+      "dateOfReturn": "2024-12-27",
+      "returnTime": "16:00",
+      "price": 180,
+      "currency": "TRY",
+      "flightTime": 90
+    },
+    {
+      "id": 13,
+      "oneWayFlight": "true",
+      "departure": "ANK",
+      "arrival": "SAW",
+      "departureDate": "2025-01-15",
+      "departureTime": "08:00",
+      "dateOfReturn": null,
+      "price": 120,
+      "currency": "TRY",
+      "flightTime": 60
+    },
+    {
+      "id": 14,
+      "oneWayFlight": "false",
+      "departure": "BJV",
+      "arrival": "AYT",
+      "departureDate": "2025-02-28",
+      "departureTime": "13:30",
+      "dateOfReturn": "2025-03-05",
+      "returnTime": "15:30",
+      "price": 260,
+      "currency": "TRY",
+      "flightTime": 120
+    },
+    {
+      "id": 15,
+      "oneWayFlight": "true",
+      "departure": "DLM",
+      "arrival": "ESH",
+      "departureDate": "2025-03-20",
+      "departureTime": "10:15",
+      "dateOfReturn": null,
+      "price": 100,
+      "currency": "TRY",
+      "flightTime": 45
+    },
+    {
+      "id": 16,
+      "oneWayFlight": "false",
+      "departure": "AYT",
+      "arrival": "TZX",
+      "departureDate": "2025-04-10",
+      "departureTime": "11:45",
+      "dateOfReturn": "2025-04-15",
+      "returnTime": "13:15",
+      "price": 210,
+      "currency": "TRY",
+      "flightTime": 90
+    },
+    {
+      "id": 17,
+      "oneWayFlight": "true",
+      "departure": "ESB",
+      "arrival": "IST",
+      "departureDate": "2025-05-25",
+      "departureTime": "14:00",
+      "dateOfReturn": null,
+      "price": 130,
+      "currency": "TRY",
+      "flightTime": 60
+    },
+    {
+      "id": 18,
+      "oneWayFlight": "false",
+      "departure": "SAW",
+      "arrival": "ADA",
+      "departureDate": "2025-06-18",
+      "departureTime": "15:45",
+      "dateOfReturn": "2025-06-25",
+      "returnTime": "18:15",
+      "price": 290,
+      "currency": "TRY",
+      "flightTime": 150
+    },
+    {
+      "id": 19,
+      "oneWayFlight": "true",
+      "departure": "TZX",
+      "arrival": "DLM",
+      "departureDate": "2025-07-10",
+      "departureTime": "09:30",
+      "dateOfReturn": null,
+      "price": 95,
+      "currency": "TRY",
+      "flightTime": 60
+    },
+    {
+      "id": 20,
+      "oneWayFlight": "false",
+      "departure": "IST",
+      "arrival": "BJV",
+      "departureDate": "2025-08-22",
+      "departureTime": "12:45",
+      "dateOfReturn": "2025-08-29",
+      "returnTime": "14:00",
+      "price": 220,
+      "currency": "TRY",
+      "flightTime": 75
+    },
+    {
+      "id": 21,
+      "oneWayFlight": "true",
+      "departure": "ANK",
+      "arrival": "ESH",
+      "departureDate": "2025-09-15",
+      "departureTime": "10:30",
+      "dateOfReturn": null,
+      "price": 115,
+      "currency": "TRY",
+      "flightTime": 60
+    },
+    {
+      "id": 22,
+      "oneWayFlight": "false",
+      "departure": "AYT",
+      "arrival": "SAW",
+      "departureDate": "2025-10-20",
+      "departureTime": "13:00",
+      "dateOfReturn": "2025-10-27",
+      "returnTime": "15:00",
+      "price": 240,
+      "currency": "TRY",
+      "flightTime": 100
+    },
+    {
+      "id": 23,
+      "oneWayFlight": "true",
+      "departure": "BJV",
+      "arrival": "ADB",
+      "departureDate": "2025-11-10",
+      "departureTime": "12:15",
+      "dateOfReturn": null,
+      "price": 160,
+      "currency": "TRY",
+      "flightTime": 75
+    },
+    {
+      "id": 24,
+      "oneWayFlight": "false",
+      "departure": "ESH",
+      "arrival": "IST",
+      "departureDate": "2025-12-25",
+      "departureTime": "14:30",
+      "dateOfReturn": "2025-12-30",
+      "returnTime": "16:00",
+      "price": 190,
+      "currency": "TRY",
+      "flightTime": 90
+    },
+    {
+      "id": 25,
+      "oneWayFlight": "true",
+      "departure": "TZX",
+      "arrival": "SAW",
+      "departureDate": "2026-01-10",
+      "departureTime": "08:45",
+      "dateOfReturn": null,
+      "price": 125,
+      "currency": "TRY",
+      "flightTime": 60
+    },
+    {
+      "id": 26,
+      "oneWayFlight": "true",
+      "departure": "ANK",
+      "arrival": "IST",
+      "departureDate": "2024-02-04",
+      "departureTime": "06:00",
+      "dateOfReturn": "2024-02-05",
+      "price": 50,
+      "currency": "TRY",
+      "flightTime": 30
+    }
+  ]
+}
