@@ -1,6 +1,6 @@
 # Introduction
 
-This is a straightforward application for searching flights. It has been developed using `React` and `Vite`. Date formatting is handled through the `dayjs` library. The MOCK API integration relies on the `json-server` package, while requests are managed using the `axios` package. Form management is facilitated by the `formik` and `yup` packages.
+This is a straightforward application for searching flights. It has been developed using `React`, `MUI` and `Vite`. Date formatting is handled through the `dayjs` library. The MOCK API integration relies on the `json-server` package, while requests are managed using the `axios` package. Form management is facilitated by the `formik` and `yup` packages.
 
 # Installation
 
@@ -27,10 +27,10 @@ For running the application, you need to start the Mock JSON server. You can do 
 ```bash
 npx json-server src/database/db.json
 ```
+
 Open a diffrent terminal and navigate to the project folder.
 Finally, you can start the application by running the following command:
 
 ```bash
 npm run dev
 ```
-
