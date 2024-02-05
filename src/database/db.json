@@ -67,8 +67,8 @@
       "country": "Turkey"
     }
   ],
- "flights": [
-  {
+  "flights": [
+    {
       "id": 99,
       "oneWayFlight": "false",
       "departure": "IST",
@@ -94,7 +94,7 @@
       "currency": "TRY",
       "flightTime": 60
     },
-    
+
     {
       "id": 2,
       "oneWayFlight": "false",

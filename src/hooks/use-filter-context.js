@@ -1,13 +1,14 @@
-import { useContext } from 'react';
+import { useContext } from "react"
 
-import { FilterContext } from '../context/filter/context';
+import { FilterContext } from "../context/filter/context"
 
 function useFilterContext() {
-  const context = useContext(FilterContext);
+  const context = useContext(FilterContext)
 
-  if (!context) throw new Error('useFilterContext context must be use inside provider');
+  if (!context)
+    throw new Error("useFilterContext context must be use inside provider")
 
-  return context;
-};
+  return context
+}
 
-export default useFilterContext;
+export default useFilterContext

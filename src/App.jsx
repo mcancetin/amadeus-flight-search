@@ -1,9 +1,9 @@
-import React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
+import React from "react"
+import CssBaseline from "@mui/material/CssBaseline"
 
-import Main from './pages/main';
+import Main from "./pages/main"
 
-import { FilterProvider } from './context/filter/provider';
+import { FilterProvider } from "./context/filter/provider"
 
 function App() {
   return (
@@ -16,4 +16,4 @@ function App() {
   )
 }
 
-export default App;
+export default App
