@@ -51,6 +51,7 @@ function FlightList() {
   const [flights, setFlights] = useState([])
   const [loading, setLoading] = useState(true)
 
+  // Demo amacı ile json-server kullanıldığı için oldukça düzensiz bir ednpoint yapısı var. Bu nedenle filtreleme işlemleri burada yapılıyor.
   useEffect(() => {
     const fetchData = async (url) => {
       try {
